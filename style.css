@@ -8,9 +8,9 @@
 }
 
 .aboutBgColorSet{
-   background-image: url('./img/aboutbackground.jpg');
+   background-image: url('https://lh3.googleusercontent.com/d/17Z9z3sGU4OOq4Mczmrwf35vrqp94m-S0');
     background-repeat: no-repeat; /* Prevents the image from repeating */
-    background-size: 100% auto; /* Scales the image to cover the entire background */
+    background-size: cover; /* Scales the image to cover the entire background */
     /*background-position: center center; /* Centers the image */
     background-attachment: fixed;
 }
@@ -58,17 +58,18 @@ footer {
     }
 
     #contactPage {
-        background-image: url('./img/indexbackground.jpg'); /* Replace 'your-image-name.jpg' with your image path */
+        background-image: url('https://lh3.googleusercontent.com/d/1u1HkYLuJa24UxK4QJFz37r4kRdJHH5hY'); /* Replace 'your-image-name.jpg' with your image path */
         background-repeat: no-repeat; /* Prevents the image from repeating */
-        background-size: 100% auto; /* Scales the image to cover the entire background */
+        background-size: cover; /* Scales the image to cover the entire background */
         /*background-position: center center; /* Centers the image */
-         background-attachment: fixed;
+        background-attachment: fixed;
     }
 
     .bgcolorContact {
         background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent white background */
         padding: 20px; /* Padding for the contact section */
         border-radius: 10px; /* Rounded corners */
+        border: 3px solid rgb(0, 0, 0);
         /*min-height: 60vh; /* Ensures the section covers the full height of the viewport */
     }
 
@@ -122,9 +123,9 @@ footer {
     }*/
 
     .indexBgColorSet{
-        background-image: url('./img/indexbackground.jpg');
+        background-image: url('https://lh3.googleusercontent.com/d/1LO9-a6eEaypEkKnKsezQ4qIteHnTdzMu');
         background-repeat: no-repeat; /* Prevents the image from repeating */
-        background-size: 100% auto; /* Scales the image to cover the entire background */
+        background-size: cover; /* Scales the image to cover the entire background */
         /*background-position: center center; /* Centers the image */
         background-attachment: fixed;
     }
@@ -157,9 +158,10 @@ footer {
     }
 
     .productBgColorSet{
-        background-image: url('./img/productbackground.jpg');
+        background-image: url('https://lh3.googleusercontent.com/d/174WTmvh3uH-3LmGCG3Sd-_XVH0wWyyae');
         background-repeat: no-repeat; /* Prevents the image from repeating */
-        background-size: 100% auto; /* Scales the image to cover the entire background */
+        background-size: cover; /* Scales the image to cover the entire background */
+        /*background-size: 100% auto; /* Scales the image to cover the entire background */
         /*background-position: center center; /* Centers the image */
         background-attachment: fixed;
     }
